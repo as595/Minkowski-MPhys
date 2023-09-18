@@ -11,3 +11,9 @@ standard image classification techniques such as those using convolutional neura
 
 Work Plan:
 
+* Build and train baseline deep-learning model from [E2CNN paper code](https://github.com/as595/E2CNNRadGal);
+* Write code to extract MFs from input images of radio galaxies;
+* Replace trainable convolutional layers in baseline model with MF extraction and retrain model;
+* Compare and evaluate performance of MF approach vs baseline deep-learning approach;
+* (if time allows) implement scattering transform / haralick features to benchmark different feature extraction techniques.
+
